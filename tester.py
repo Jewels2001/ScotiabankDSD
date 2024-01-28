@@ -15,3 +15,8 @@ print("The mean rating is: ", rating_mean)
 print("The most common rating is: ", rating_mode)
 print("The median rating is: ", rating_median)
 print("The standard deviation of the rating is: ", rating_std)
+words = []
+for i in df['Review']:
+    if len(i.split()) == 1:
+        words.append(i)
+print(words)
