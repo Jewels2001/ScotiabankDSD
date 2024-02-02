@@ -48,4 +48,4 @@ if __name__ == "__main__":
     #Labels that we want a sentence to be mapped to 
     labels = ['greeting', 'creator', 'functions', 'What you do','architecture', 'How you work','weakness']
     #Sentence that we want mapped to a label
-    zero_shot_classification('How do you do, dear sir?', labels)
+    print(zero_shot_classification('How do you do, dear sir?', labels))
